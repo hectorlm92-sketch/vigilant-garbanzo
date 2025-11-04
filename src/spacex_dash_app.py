@@ -9,7 +9,7 @@ import plotly.express as px
 
 # Read the airline data into pandas dataframe
 print("Loading data...")
-spacex_df = pd.read_csv("c:/Users/hecto/OneDrive/Documentos/Aprimoramento pessoal/Coursera/DS - course/IBM_DS_Capstone/vigilant-garbanzo/data/spacex_launch_dash.csv")
+spacex_df = pd.read_csv("../data/spacex_launch_dash.csv")
 max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
 
