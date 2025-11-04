@@ -1,0 +1,28 @@
+name: ds_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - requests
+  - beautifulsoup4
+  - folium
+  - plotly
+  - dash
+  - dash-core-components
+  - dash-html-components
+  - ipython-sql
+  - prettytable
+  - sqlalchemy
+  - ipykernel 
+
+# Notes:
+# - This environment file is generated from requirements.txt. SQLAlchemy is pinned to 1.3.9
+#   in the original requirements; that version may be incompatible with Python 3.11.
+#   If you encounter installation or runtime issues, consider removing the pin
+#   (use `sqlalchemy` without a version) or using Python 3.8/3.9 for full compatibility.
